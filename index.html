@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- *******HEADER****** -->
+      <header>
+        <div class="header-content">
+          <div class="input"> <i class="fa-solid fa-magnifying-glass fa-bounce" id="searchh"></i>
+            <input type="text" placeholder="Search by patients..." />
+          </div>
+          <div class="notification">
+            <img src="/asset/image/notification.png" alt="bell notification" />
+            <img
+              src="/asset/image/doc-stethoscope (1).png"
+              alt="doctor wrapped with stethoscope on his neck"
+              width="40px"
+              class="round-img"
+            />
+            <select name="" id="">
+              <option value="deko">Deko</option>
+              <option value="bassey">Bassey</option>
+            </select>
+          </div>
+        </div>
+      </header>
+      <!-- *******ASIDE****** -->
+      <aside>
+        <img src="/asset/image/medix logo.png" width="110px" alt="medix logo" />
+        <div class="aside-list">
+          <ul class="dash-board-ul">
+            <li class="li-img-spacing1">
+              <img
+                src="/asset/image/dashboard icons/dashboard.png"
+                alt="dashboard"
+                width="20px"
+              />
+              Dashboard
+            </li>
+            <li class="li-img-spacing2">
+              <img
+                src="/asset/image/dashboard icons/appointment.png"
+                alt="appointment book"
+                width="20px"
+              />Appointment
+            </li>
+            <li class="li-img-spacing3">
+              <img
+                src="/asset/image/dashboard icons/doctors.png"
+                alt="doctor image"
+                width="20px"
+              />Doctors
+            </li>
+            <li class="li-img-spacing4">
+              <img
+                src="/asset/image/dashboard icons/department.png"
+                alt="department image"
+                width="20px"
+                autofocus
+              />Departments
+            </li>
+            <li class="li-img-spacing5">
+              <img
+                src="/asset/image/dashboard icons/patient.png"
+                alt="patient on a chair"
+                width="20px"
+              />Patients
+            </li>
+            <li class="li-img-spacing6">
+              <img
+                src="/asset/image/dashboard icons/chats.png"
+                alt="chat symbol"
+                width="20px"
+              />Chats
+            </li>
+            <li class="li-img-spacing7">
+              <img
+                src="/asset/image/dashboard icons/calls.png"
+                alt="call symbol"
+                width="20px"
+              />Calls
+            </li>
+          </ul>
+        </div>
+        <div>
+          <a href="register.html"> <button class="aside-btn"><i class="fa-solid fa-plus fa-flip"></i> Register Patients</button></a>
+        </div>
+        <div class="img-below-aside">
+          <img
+            src="/asset/image/laptop man.png"
+            alt="avatar pressing his laptop"
+            width="150px"
+          />
+        </div>
+        <br />
+        <br />
+        <div class="settings">
+          <img src="/asset/image/settings.png" alt="avatar working on his laptop" /> Settings
+        </div>
+      </aside>
+      <!-- *******NAV****** -->
+      <nav>
+        <div class="content-nav">
+          <div class="heading-nav">
+            <h3>Patient Visit By Department</h3>
+            <select class="select-nav" name="" id="">
+              <option value="weekly">Weekly</option>
+              <option value="daily">Daily</option>
+            </select>
+          </div>
+
+          <div class="nav-list">
+            <table width="400" height="150">
+              <tr>
+                <td><div class="circle"></div></td>
+                <td><div class="square">Cardiology</div></td>
+                <th><div class="rect">40%</div></th>
+              </tr>
+              <tr>
+                <td><div class="kite"></div></td>
+                <td><div class="square">Neurology</div></td>
+                <th><div class="rect">20%</div></th>
+              </tr>
+              <tr>
+                <td><div class="trap"></div></td>
+                <td><div class="square">Dermatology</div></td>
+                <th><div class="rect">30%</div></th>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </nav>
+      <!-- *******SECTION****** -->
+      <section>
+        <div class="section-container">
+          <div class="heading">
+            <h3>Employes</h3>
+            <p>Number of staffs according to department</p>
+          </div>
+          <div class="chart">
+            <!-- *******BLUE 30%****** -->
+            <div class="bluee-text-label-a">
+              <div class="bluee-transparent-background-a">
+                <p class="percent">30%</p>
+                <p class="bluee-color"></p>
+              </div>
+              <p class="emergency">Emergency</p>
+            </div>
+            <!-- *******PINK 55%****** -->
+            <div class="pinkk-text-label-b">
+              <div class="pinkk-transparent-background-b">
+                <p class="percentt">55%</p>
+                <p class="pinkk-color"></p>
+              </div>
+              <p class="emergency">ICU</p>
+            </div>
+            <!-- *******PURPLE 80%****** -->
+            <div class="purple-text-label-c">
+              <div class="purple-transparent-background-c">
+                <p class="percenttt">80%</p>
+                <p class="purple-color"></p>
+              </div>
+              <p class="emergency">Neurology</p>
+            </div>
+            <!-- *******BROWN 40%****** -->
+            <div class="brown-text-label-d">
+              <div class="brown-transparent-background-d">
+                <p class="percentttt">40%</p>
+                <p class="brown-color"></p>
+              </div>
+              <p class="emergency">Cardiology</p>
+            </div>
+            <!-- *******GREEN 65%****** -->
+            <div class="green-text-label-e">
+              <div class="green-transparent-background-e">
+                <p class="percenttttt">65%</p>
+                <p class="green-color"></p>
+              </div>
+              <p class="emergency">Gynecology</p>
+            </div>
+            <!-- *******ORANGE 82%****** -->
+            <div class="orange-text-label-f">
+              <div class="orange-transparent-background-f">
+                <p class="percentttttt">82%</p>
+                <p class="orange-color"></p>
+              </div>
+              <p class="emergency">Urology</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- *******MAIN****** -->
+      <main>
+        <div class="heading-main">
+          <h3>Department List</h3>
+          <button>Add Departmnent</button>
+        </div>
+        <div class="table">
+          <table width="1000" height="300">
+            <!-- *******TABLE HEAD****** -->
+            <thead>
+              <tr>
+                <th>Depart Name</th>
+                <th>Doctor</th>
+                <th>Gender</th>
+                <th>Head of Department</th>
+                <th>Action</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <!-- *******TABLE BODY****** -->
+            <tbody>
+              <!-- *******ROW 1****** -->
+              <tr>
+                <td>ICU</td>
+                <td class="kicker-td">
+                  <img
+                    src="/asset/image/doctors img/first.png"
+                    alt="image of doctor Kicker Nicil"
+                    width="40px"
+                  />Kicker Nicil
+                </td>
+                <td>Male</td>
+                <td>Heidry Kon</td>
+                <td>
+                  <img
+                    src="/asset/image/action icon/pen and book.png"
+                    alt="a notebook with a pen"
+                  />
+                  <img
+                    src="/asset/image/action icon/people.png"
+                    alt="profile image"
+                  />
+                  <img
+                    src="/asset/image/action icon/waste bin.png"
+                    alt="waste bin/trash"
+                  />
+                </td>
+                <td><button class="active-button">Active</button></td>
+              </tr>
+              <!-- *******ROW 2****** -->
+              <tr>
+                <td>Emergency</td>
+                <td class="killan-td">
+                  <img
+                    src="/asset/image/doctors img/second.png"
+                    alt=""
+                    width="40px"
+                  />Killan James
+                </td>
+                <td>Male</td>
+                <td>Thomas Fletcher</td>
+                <td>
+                  <img
+                    src="/asset/image/action icon/pen and book.png"
+                    alt="a notebook with a pen"
+                  />
+                  <img
+                    src="/asset/image/action icon/people.png"
+                    alt="profile image"
+                  />
+                  <img src="/asset/image/action icon/waste bin.png" alt="waste
+                  bin/trash"
+                </td>
+                <td><button class="inactive-button">Inactive</button></td>
+              </tr>
+              <!-- *******ROW 3****** -->
+              <tr>
+                <td>ICU</td>
+                <td class="deler-td">
+                  <img
+                    src="/asset/image/doctors img/third.png"
+                    alt=""
+                    width="40px"
+                  />Deler Karon
+                </td>
+                <td>Female</td>
+                <td>Jonathan Doe</td>
+                <td>
+                  <img
+                    src="/asset/image/action icon/pen and book.png"
+                    alt="a notebook with a pen"
+                  />
+                  <img
+                    src="/asset/image/action icon/people.png"
+                    alt="profile image"
+                  />
+                  <img src="/asset/image/action icon/waste bin.png" alt="waste
+                  bin/trash"
+                </td>
+                <td><button class="active-button">Active</button></td>
+              </tr>
+              <!-- *******ROW 4****** -->
+              <tr>
+                <td>Neurology</td>
+                <td class="michel-td">
+                  <img
+                    src="/asset/image/doctors img/fourth.png"
+                    alt=""
+                    width="40px"
+                  />Michel Jon
+                </td>
+                <td>Male</td>
+                <td>Michel Liyo</td>
+                <td>
+                  <img
+                    src="/asset/image/action icon/pen and book.png"
+                    alt="a notebook with a pen"
+                  />
+                  <img
+                    src="/asset/image/action icon/people.png"
+                    alt="profile image"
+                  />
+                  <img src="/asset/image/action icon/waste bin.png" alt="waste
+                  bin/trash"
+                </td>
+                <td><button class="active-button">Active</button></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </main>
+    </div>
+
+    <div class="last">
+      <header>
+        <div class="header-content">
+          <img src="/asset/image/medix logo.png" alt="" />
+          <div class="notification">
+            <img src="/asset/image/notification.png" alt="bell notification" />
+            <img
+              src="/asset/image/doc-stethoscope (1).png"
+              alt="doctor wrapped with stethoscope on his neck"
+              width="40px"
+              class="round-img"
+            />
+            <select name="" id="">
+              <option value="deko">Deko</option>
+              <option value="bassey">Bassey</option>
+            </select>
+          </div>
+        </div>
+      </header>
+
+      <ul>
+        <li class="dashboard">Dashboard</li>
+        <li>Appointment</li>
+        <li>Doctors</li>
+        <li>Chats</li>
+        <li>Calls</li>
+      </ul>
+
+      <h3>Department List</h3>
+      <!--***** Kicker 1 *****-->
+      <div class="tabless">
+        <div class="table-inside">
+          <img src="/asset/image/doctors img/first.png" alt="" />
+          <p class="Kicker">Kicker Nicil <span>Male</span></p>
+        </div>
+        <p>ICU</p>
+        <p class="actives"><button>Active</button></p>
+      </div>
+      <!--***** Kicker 2 *****-->
+      <div class="tabless">
+        <div class="table-inside">
+          <img src="/asset/image/doctors img/first.png" alt="" />
+          <p class="Kicker">Kicker Nicil <span>Male</span></p>
+        </div>
+        <p>ICU</p>
+        <p class="actives"><button>Active</button></p>
+      </div>
+
+      <!--***** Kicker 3 *****-->
+      <div class="tabless">
+        <div class="table-inside">
+          <img src="/asset/image/doctors img/first.png" alt="" />
+          <p class="Kicker">Kicker Nicil <span>Male</span></p>
+        </div>
+        <p>ICU</p>
+        <p class="actives"><button>Active</button></p>
+      </div>
+
+      <!--***** Kicker 4 *****-->
+      <div class="tabless">
+        <div class="table-inside">
+          <img src="/asset/image/doctors img/first.png" alt="" />
+          <p class="Kicker">Kicker Nicil <span>Male</span></p>
+        </div>
+        <p>ICU</p>
+        <p class="actives"><button>Active</button></p>
+      </div>
+      <!--***** Kicker 5 *****-->
+      <div class="tabless">
+        <div class="table-inside">
+          <img src="/asset/image/doctors img/first.png" alt="" />
+          <p class="Kicker">Kicker Nicil <span>Male</span></p>
+        </div>
+        <p>ICU</p>
+        <p class="actives"><button>Active</button></p>
+      </div>
+    </div>
+  </body>
+</html>

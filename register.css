@@ -1,0 +1,224 @@
+body{
+    background-color: rgb(218, 216, 216);
+    align-items: center;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+    margin: auto;
+}
+/*****NAV*****/
+nav{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: white;
+}
+/*****REGISTER PATIENT*****/
+.register-patient{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 450px;
+    flex-grow: 0.9;
+    color: rgb(106, 96, 114);
+}
+img{
+    margin-left: 30px;
+}
+a{
+    float: left;
+    color: rgb(106, 96, 114);
+    height: 20px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-left: 70px;
+    margin-top: 40px;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+    font-size: 15px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 50px auto;
+    margin-left: 350px;
+    width: 50%;
+    height: 450px;
+    border-radius: 20px;
+}
+
+.first-and-last{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hmo-date{
+    display: flex;
+    justify-content: space-between;
+}
+label{
+    font-weight: 700;
+}
+::placeholder{
+    font-weight: 100;
+    font-size: 15px;
+    padding: 10px;
+}
+.email-input{
+    width: 500px;
+    height: 40px;
+    border-color:  blue;
+    border-radius: 5px;
+    border-width: thin;
+    background-color: transparent;
+    font-size: 17px;
+    padding-right: 20px;
+}
+.first-name-input{
+    width: 235px;
+    height: 40px;
+    border-color:  blue;
+    border-radius: 5px;
+    border-width: thin;
+    background-color: transparent;
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+.last-name-input{
+    width: 235px;
+    height: 40px;
+    border-color:  blue;
+    border-radius: 5px;
+    border-width: thin;
+    background-color: transparent;
+    font-size: 17px;
+}
+.hmo-input{
+    width: 235px;
+    height: 40px;
+    /* border-color:  blue; */
+    border-radius: 5px;
+    border-width: thin;
+    background-color: transparent;
+    font-size: 17px;
+}
+.date-input{
+    width: 235px;
+    height: 40px;
+    border-color:  blue;
+    border-radius: 5px;
+    border-width: thin;
+    background-color: transparent;
+    font-size: 17px;
+}
+.location-input{
+    width: 500px;
+    height: 40px;
+    border-color:  blue;
+    border-radius: 5px;
+    border-width: thin;
+    background-color: transparent;
+    margin-bottom: 40px;
+    font-size: 17px;
+    padding-left: 20px;
+}
+
+.location{
+    position: relative;
+}
+#ics{
+    position: absolute;
+    top: 29px;
+    left: 10px;
+}
+button{
+    float: right;
+    padding: 6px;
+    background-color: rgb(92, 92, 161);
+    color: white;
+    width: 160px;
+    height: 40px;
+    border: none;
+    border-radius: 9px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(201, 152, 73);
+    color: black;
+}
+.register{
+    display: none;
+}
+
+
+@media screen and (max-width:770px) {
+    body{
+        height:860px;
+    }
+.register{
+    display: block;
+    position: absolute;
+    top: -50px;
+    left: 75px;
+    margin-left: 15px;
+    margin-top: -10px;
+}
+.hey{
+    position: relative;
+    margin-top: 120px;
+}
+.chai{
+    display: none;
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 70px auto;
+    width: 300px;
+    height:550px;
+    border-radius: 20px;
+    padding-top: 10px;
+    }
+   .first-and-last, .hmo-date  {
+  flex-direction: column;
+ 
+}
+.email-input, .location-input{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.butt{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+a{
+    display: flex;
+    flex-direction: column;
+    margin-left: 87px;
+    margin-top: 25px;
+    /* justify-content: center;
+    align-items: center;
+    color: red; */
+}
+.register-patient{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} 
+nav{
+    width: 600px;
+    height: 80px;
+}
+img{
+    margin-left: 79px;
+}
+    }
